@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/prefer-default-export
 export const strictEquals = (a, b) => {
-    // With == operator
+    // Version with == operator
     // if (a == 0 && b == 0) {
     //     return true;
     // } // Pass Test 3 and 4: 0, -0 / -0, 0
