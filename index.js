@@ -1,7 +1,7 @@
 import { strictEquals } from "./strictEquals.js";
 
 const tests = {
-    Test1: console.log(strictEquals(1, 1)),
+    Test1: strictEquals(1, 1),
     Test2: strictEquals(NaN, NaN), // Exception
     Test3: strictEquals(0, -0), // Exception
     Test4: strictEquals(-0, 0), // Exception
